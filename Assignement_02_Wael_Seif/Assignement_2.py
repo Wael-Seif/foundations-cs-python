@@ -57,16 +57,28 @@
 #   array_List.append(numbers)
 # evenList(array_List)
 
-#Exercise 5:
 
-def check_String(word):
-        
-    
-    
-text=input("Please enter your text: ")
-if len(text) > 10:
-    print("please enter a text of 10 characters")
+#Exercise 5: 
+# def check_Password(password):
+#     has_digit = False
+#     has_uppercase = False
+#     has_lowercase = False
+#     has_special_char = False
 
+#     for char in password:
+#         if char.isdigit():
+#             has_digit = True
+#         elif char.isupper():
+#             has_uppercase = True
+#         elif char.islower():
+#             has_lowercase = True
+#         elif char in ['#', '?', '!', '$']:
+#             has_special_char = True
 
+#     if len(password) >= 8 and has_digit and has_uppercase and has_lowercase and has_special_char:
+#         print( "Strong password")
+#     else:
+#         print( "Weak password")
 
-check_String(text)
+# user_text = input("Please enter your password: ")
+# check_Password(user_text)
