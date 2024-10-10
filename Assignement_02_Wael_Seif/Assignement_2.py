@@ -10,7 +10,7 @@
 #              list1.append(i)
 #             print("input:",num,"output:",fact,list1)
   
-# calculateFactorial(4)
+# calculateFactorial(-1)
 
 
 
@@ -21,12 +21,12 @@
 #     else:
 #         list1=list()
 #         for i in range(1,num+1):
-#             if num % i  ==0 :
+#             if num % i  == 0 :
 #                 list1.append(i)
 #         print("input: ",num,"output", list1)
                    
-        
-# findDivisors(5)
+# nummber=int(input("enter your number: "))
+# findDivisors(nummber)
 
 
 
@@ -36,16 +36,17 @@
 #     for i in range(1, len(text) + 1):
 #         reversedText += text[len(text) - i]
 #     print("input:  ",text,"output: ",reversedText)
-# reverse("abcdefg")
+# input_Text=input("enter your text please: ")
+# reverse(input_Text)
 
 
 # Exercise 4:
 # def evenList(newList):
+#     even_List=[]
 #     for i in range(len(newList)):
 #         if newList[i] % 2 == 0:
-#             even_List=[]
-#             even_List.append(newList[i])
-#             print("Output is: ",even_List,end="")
+#          even_List.append(newList[i])
+#     print("input",newList,"Output is: ",even_List,end="")
             
         
      
@@ -58,7 +59,7 @@
 # evenList(array_List)
 
 
-#Exercise 5: 
+# Exercise 5: 
 # def check_Password(password):
 #     has_digit = False
 #     has_uppercase = False
@@ -82,3 +83,5 @@
 
 # user_text = input("Please enter your password: ")
 # check_Password(user_text)
+
+#Exercise 6: 
