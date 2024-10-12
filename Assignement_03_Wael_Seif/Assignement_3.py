@@ -57,6 +57,7 @@
 #      print(countDigit(num))
 #      break
      
+     
 #     elif (choice == 2): 
 #      list1=[]
 #      n=int(input("please specify the length of the list: "))
@@ -66,6 +67,7 @@
 #      print(list1)
 #      print(findMax(list1))
 #      break
+     
      
 #     elif (choice == 3):
 #       html_code="""
@@ -89,13 +91,14 @@
 #       tag=input("enter your tag please: ")
 #       print(countTags(html_code,tag))
 #       break
+      
    
 #     else:
 #       print("this is an invalid choice ")
 #       displayMenu()
 #       choice = int(input("please enter your choice: "))
+#   displayMenu()
+#   choice = int(input("please enter your choice here: "))
     
   
 # mainFunction()
-
-
