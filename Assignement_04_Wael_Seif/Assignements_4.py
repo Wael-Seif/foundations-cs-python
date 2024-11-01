@@ -1,4 +1,4 @@
-# Exercise 1: 
+# # Exercise 1: 
 # def SumTuples(tup1,tup2):
 #     newTuple= tuple(map(sum, zip(tup1, tup2)))
 #     return newTuple
@@ -7,7 +7,6 @@
 #    json_object = json.dumps(user_dict, indent=4)
 #    with open(user_file_Name, "w") as outfile:
 #     outfile.write(json_object)
-  
 # def importJson(data):
 #     return data
    
@@ -26,12 +25,12 @@
     
 #     if (choice == 1):
 #         list1=[]
-#         num1=int(input("please specify the length of the list1: "))
+#         num1=int(input("please specify the length of list1: "))
 
 #         for i in range (num1):
 #          n1=int(input("Enter the items of the first tuple please: "))
 #          list1.append(n1)
-#          tup1=tuple(list1)
+#         tup1=tuple(list1)
 
 #         list2=[]
 #         num2=int(input("please specify the length of the list2: "))
@@ -39,8 +38,9 @@
 #          for i in range (num2):
 #           n2=int(input("Enter the items of the first tuple please: "))
 #           list2.append(n2)
-#           tup2=tuple(list2)
-#           print(SumTuples(tup1,tup2))
+#          tup2=tuple(list2)
+#          print(SumTuples(tup1,tup2))
+#          break
 #         else:
 #             print("The Length of the two list is not equal!!!")
 #             break
@@ -75,14 +75,14 @@
 # print(mainFunction())
 
 
-#Exercise 2:
+# # Exercise 2:
 
-# a. 1/6N+8000N3+24          O(N)
-# b. 1/6N3                   O(N)
-# c. 1/6N! +200N4            O(N!)
-# d. NlogN +1000             O(NlogN)
-# e. logN +N                 O(N)
-# f. 1⁄2N(N-1)               O(N^2)
-# g. N2+220NlogN2+3N+9000    O(N)
-# h. N!+3N+2N+N3+N2          O(N!)
+# # a. 1/6N+8000N3+24          O(N^3)
+# # b. 1/6N3                   O(N^3)
+# # c. 1/6N! +200N4            O(N!)
+# # d. NlogN +1000             O(NlogN)
+# # e. logN +N                 O(N)
+# # f. 1⁄2N(N-1)               O(N^2)
+# # g. N2+220NlogN2+3N+9000    O(N^2)
+# # h. N!+3N+2N+N3+N2          O(N!)
 
